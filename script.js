@@ -138,8 +138,11 @@ remove.addEventListener('click',()=>{
     })
    include_array.splice(index,1)
    console.log(include_array);
+   if(include_array.length==0){
+    total_elem.innerHTML='total:'+ 0 +'$'
+   }else{
    re_hanlder_total()
-    
+   }
 })
 }
 function totaLhandler(count){
