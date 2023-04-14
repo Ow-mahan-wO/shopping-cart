@@ -13,3 +13,4 @@ Languages ​​used in this project:
 -JAVASCRIPT
 
 github page link:
+https://ow-mahan-wo.github.io/shopping-cart/
