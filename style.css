@@ -1,3 +1,16 @@
+.header{
+  background-color: blueviolet;
+  height: 5rem;
+  font-size: 1.5rem;
+color:white ;
+display: flex;
+justify-content:center;
+align-items: center;
+
+}
+body{
+  background-color: black;
+}
 .product-container {
     margin-top: 1.5rem;
     display: flex;
@@ -8,7 +21,6 @@
   
   .products {
     height: 30.2rem;
-    background-color: white;
     width: 100%;
     display: flex;
     align-items: center;
@@ -28,20 +40,21 @@
   }
   
   .card__status {
-    color: green;
+    color:yellow;
     margin-left: 0.8rem;
   }
   
   .card__price {
-    color: red;
+    color:white;
   }
   
   .card__btn {
     width: 9rem;
     height: 2.5rem;
-    background-color: white;
-    border: 1px solid rgb(161, 161, 161);
-    color: rgb(161, 161, 161);
+    background-color:blueviolet;
+    border: 1px solid white;
+    border-radius: 6px;
+    color:white;
     cursor: pointer;
   }
   .card__btn:hover {
@@ -57,18 +70,24 @@
   }
   
   .card__name {
-    color: rgb(0, 0, 0);
+    color:white;
   }
-  
+  .bi{
+    margin-right: 0.5rem;
+  }
   .card {
-    margin:2rem 3rem;
+    padding: 1rem 2rem;
+    margin:2rem 1rem;
+    background-color: #ffffff47;
+    border-radius: 0.5rem;
   }
   .product-cart{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-bottom: 2rem;
-    border-bottom: 1px solid black;
+    padding-top: 2rem;
+    border-bottom: 1px solid white;
   }
   .info-container{
     display: flex;
@@ -84,7 +103,7 @@
     border: none;
     width: 9rem;
     height: 3rem;
-    background-color: #ff7474;
+    background-color:blueviolet;
     color: white;
     border-radius: 0.5rem;
     cursor: pointer;
@@ -93,15 +112,16 @@
   .delete-product:hover{
     transition-duration: 500ms;
     background-color: white;
-    border: 1px solid black;
+    border: 1px solid blueviolet;
     color: black;
   }
   .name{
     font-size: 2rem;
+    color: white;
     margin-left: 2rem;
   }
   .price{
-    color: red;
+    color: white;
     font-size: 2rem;
     margin-left: 1rem;
   }
@@ -111,6 +131,9 @@
   }
   .product-cart-container{
     margin: 0rem 4rem;
+  }
+  .title{
+    color: white;
   }
   .input{
     width: 3rem;
@@ -125,13 +148,14 @@
   }
   .total{
   font-size: 2rem;
+  color: white;
   }
   .purchase{
     width: 15rem;
     height: 3rem;
     font-size: 1.5rem;
     color: white;
-    background-color: deepskyblue;
+    background-color: blueviolet;
     border: none;
     border-radius: 0.5rem;
   }
